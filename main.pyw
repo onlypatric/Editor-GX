@@ -462,7 +462,7 @@ class App:
         self.root.geometry("%dx%d"%(self.root.winfo_screenwidth()/2.5,self.root.winfo_screenheight()/2.5))
         
         #title
-        self.root.title("Untilted - WEdit")
+        self.root.title("Untilted - GXEdit")
 
         #upscale to 2x
         self.root.tk.call('tk', 'scaling',2)
